@@ -27,7 +27,7 @@
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
-                    <img src="assets/img/logo/loder.png" alt="">
+                    <img src="assets/img/logo/logo-michael.png" alt="">
                 </div>
             </div>
         </div>
@@ -42,7 +42,7 @@
                         <!-- Logo -->
                         <div class="col-xl-2 col-lg-2 col-md-1">
                             <div class="logo">
-                                <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                                <a href="index.html"><img src="assets/img/logo/logo-michael.png" alt=""></a>
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10 col-md-10">
@@ -55,7 +55,7 @@
                                             <li><a href="about.html">About</a></li>
                                             <li><a href="services.html">Services</a></li>
                                             <li><a href="portfolio.html">Portfolio</a></li>
-                                            <li><a href="blog.html">Blog</a>
+                                            <!-- <li><a href="blog.html">Blog</a>
                                                 <ul class="submenu">
                                                     <li><a href="blog.html">Blog</a></li>
                                                     <li><a href="blog_details.html">Blog Details</a></li>
@@ -63,11 +63,11 @@
                                                 </ul>
                                             </li>
                                             <li class="active"><a href="contact.html">Contact</a></li>
-                                        </ul>
+                                        </ul> -->
                                     </nav>
                                 </div>
                                 <div class="header-right-btn f-right d-none d-lg-block ml-30">
-                                    <a href="from.html" class="btn header-btn">became a member</a>
+                                    <a href="contact.html" class="btn header-btn">became a member</a>
                                 </div>
                             </div>
                         </div>   
@@ -167,9 +167,22 @@
                                         <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder="Enter Subject">
                                     </div>
                                 </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <select id="serviceSelect" onchange="displayPrice()">
+                                            <option value="30">Cut + Edge / Line Up - $30</option>
+                                            <option value="40">Cut + Styling Designs + Edge / Line Up - $40</option>
+                                            <option value="65">Cut + Color + Edge Up - $65</option>
+                                            <option value="65">Cut + Edge / Line Up + Tint - $65</option>
+                                            <option value="50">Full Shave - $50</option>
+                                            <option value="40">Beard Trim / Style - $40</option>
+                                            <option value="20">Edge / Line Up - $20</option>
+                                        </select>
+                                    </div>
+                                </div>
                             </div>
                             <div class="form-group mt-3">
-                                <button type="submit" class="button button-contactForm boxed-btn">Send</button>
+                                <button type="submit" class="button button-contactForm boxed-btn"  id="send">Send</button>
                             </div>
                         </form>
                     </div>
@@ -306,7 +319,7 @@
     </div>
 
     <!-- JS here -->
-
+    <script src="./assets/js/senddata.js"></script>
     <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
     <!-- Jquery, Popper, Bootstrap -->
     <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>

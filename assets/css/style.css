@@ -2273,7 +2273,7 @@ hr {
   }
 }
 .slider-area2 {
-  background-image: url(../img/hero/hero2.png);
+  background-image: url(../img/gallery/section_bg02.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -2284,6 +2284,7 @@ hr {
   background-position: top center;
   background-size: cover;
   background-attachment: fixed;
+  
 }
 .slider-area .hero__caption {
   overflow: hidden;
@@ -2814,6 +2815,9 @@ hr {
     position: unset;
     width: 70%;
   }
+  .contactvisible{
+    display: none;
+  }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .best-pricing .pricing-img .pricing-img1 {
@@ -2825,8 +2829,9 @@ hr {
 @media (max-width: 575px) {
   .best-pricing .pricing-img .pricing-img1 {
     position: unset;
-    width: 90%;
-    height: 320px;
+    width: 75%;
+    height: 400px;
+    text-align: center;
   }
 }
 .best-pricing .pricing-img .pricing-img2 {
@@ -2899,6 +2904,7 @@ hr {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .cut-details .dot-style .slick-dots {
     bottom: -50px;
+    
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -2933,7 +2939,7 @@ hr {
   position: relative;
 }
 .gallery-area .box .gallery-img {
-  height: 425px;
+  height: 474px;
   background-size: cover;
   background-repeat: no-repeat;
   transform: scale(1.06);
@@ -3025,7 +3031,7 @@ hr {
 .team-area .single-team .team-img img {
   width: 100%;
   transform: scale(1);
-  height: 479px;
+  /* height: 479px; */
   transition: all 0.6s ease-out 0s;
 }
 .team-area .single-team .team-caption {

@@ -20,9 +20,9 @@ $(document).ready(function(){
                     required: true,
                     minlength: 4
                 },
-                number: {
+                serviceSelect: {
                     required: true,
-                    minlength: 5
+                    minlength: 3
                 },
                 email: {
                     required: true,
